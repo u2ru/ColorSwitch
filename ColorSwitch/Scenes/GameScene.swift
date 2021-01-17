@@ -123,6 +123,8 @@ extension GameScene: SKPhysicsContactDelegate {
                     run(SKAction.playSoundFileNamed("bling", waitForCompletion: false))
                     score += 1
                     updateScoreLabel()
+                    gravity -= 0.2
+                    physicsWorld.gravity = CGVector(dx: 0.0, dy: gravity)
                     ball.run(SKAction.fadeOut(withDuration: 0.25), completion: {
                         ball.removeFromParent()
                         self.spawnBall()

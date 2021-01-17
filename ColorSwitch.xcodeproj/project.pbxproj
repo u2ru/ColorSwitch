@@ -14,8 +14,9 @@
 		9028651525B3690000F704D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9028651425B3690000F704D7 /* Assets.xcassets */; };
 		9058D44425B389E700780221 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058D44325B389E700780221 /* Settings.swift */; };
 		9058D44B25B39BAF00780221 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058D44A25B39BAF00780221 /* MenuScene.swift */; };
-		9058D44E25B3A2A500780221 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9058D44D25B3A2A400780221 /* bling.wav */; };
 		9058D45A25B3A6B900780221 /* game_over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9058D45925B3A6B900780221 /* game_over.wav */; };
+		9058D45E25B3A8E100780221 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9058D45D25B3A8E100780221 /* bling.wav */; };
+		909440E225B3B49A0035DB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909440E125B3B49A0035DB57 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		9028651625B3690000F704D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9058D44325B389E700780221 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9058D44A25B39BAF00780221 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
-		9058D44D25B3A2A400780221 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bling.wav; path = ../../temp/ColorSwitch/ColorSwitch/Assets/bling.wav; sourceTree = "<group>"; };
 		9058D45925B3A6B900780221 /* game_over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_over.wav; sourceTree = "<group>"; };
+		9058D45D25B3A8E100780221 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
+		909440E125B3B49A0035DB57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		902864FB25B368FF00F704D7 = {
 			isa = PBXGroup;
 			children = (
+				909440E125B3B49A0035DB57 /* LaunchScreen.storyboard */,
 				9028650625B368FF00F704D7 /* ColorSwitch */,
 				9028650525B368FF00F704D7 /* Products */,
 			);
@@ -63,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				9058D45925B3A6B900780221 /* game_over.wav */,
-				9058D44D25B3A2A400780221 /* bling.wav */,
+				9058D45D25B3A8E100780221 /* bling.wav */,
 				9028651625B3690000F704D7 /* Info.plist */,
 				9028652225B36C2700F704D7 /* Assets */,
 				9028652125B36C1400F704D7 /* Template */,
@@ -168,7 +171,8 @@
 				9028651325B368FF00F704D7 /* Main.storyboard in Resources */,
 				9028651525B3690000F704D7 /* Assets.xcassets in Resources */,
 				9058D45A25B3A6B900780221 /* game_over.wav in Resources */,
-				9058D44E25B3A2A500780221 /* bling.wav in Resources */,
+				909440E225B3B49A0035DB57 /* LaunchScreen.storyboard in Resources */,
+				9058D45E25B3A8E100780221 /* bling.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
